@@ -1,0 +1,43 @@
+.wrap{
+    width: 500px;
+    height: 600px;
+    border: 1px solid black;
+    background: linear-gradient(90deg,blueviolet,blue);
+    margin: 50px auto;
+}
+.big {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 50px;
+    margin: 200px auto;
+    text-align: center;
+}
+.a{
+    display: inline-block;
+    color: orange;
+    font-size: 30px;
+}
+.b{
+    display: inline-block;
+    font-size: 30px;
+    color: chocolate;
+}
+.c{
+    display: inline-block;
+    font-size: 30px;
+    color: deepskyblue;
+}
+.d{
+    display: inline-block;
+    font-size: 30px;
+    color: cornflowerblue;
+}
+.e{
+    display: inline-block;
+    font-size: 30px;
+    color: blue;
+}
+.box{
+    line-height: 150px;
+}

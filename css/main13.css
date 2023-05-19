@@ -1,0 +1,64 @@
+.big{
+    width: 1200px;
+    height: 400px;
+    margin: 200px auto;
+}
+.big1{
+    width: 1200px;
+    height: 400px;
+    margin: 200px auto;
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: blue -2px -2px 50px;
+    float: left;
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: blue 40px 2px 50px;
+    float: left;
+}
+.box3{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: blue 40px 40px 15px;
+    float: left;
+}
+.box4{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 50px;
+    padding: 50px;
+    background: radial-gradient(red ,blue);
+    float: left;
+}
+.box5{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: blue 50px -5px 50px inset;
+    float: left;
+}
+.box6{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: blue 30px 30px 50px inset;
+    float: left;
+}

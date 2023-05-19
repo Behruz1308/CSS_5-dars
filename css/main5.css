@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+.big{
+    width: 600px;
+    height: 300px;
+    margin: 200px auto;
+    background: linear-gradient(90deg,blue,green,yellow,orange,red);
+}
+.a{
+    font-size: 60px;
+    text-align: center;
+    color: grey;
+}

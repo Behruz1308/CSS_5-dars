@@ -1,0 +1,12 @@
+.box{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    background: radial-gradient(green,white,cornflowerblue,blue);
+    margin: 200px auto;
+}
+.a{
+    margin-top: 100px;
+    font-size: 25px;
+    text-align: center;
+}

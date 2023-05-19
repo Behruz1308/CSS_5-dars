@@ -1,0 +1,158 @@
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+h1{
+    text-shadow: 2px 5px 10px red,-2px -5px 10px green;
+}
+.row{
+    width: 1200px;
+    display: block;
+}
+.col{
+    width: 300px;
+    height: 300px;
+    display: block;
+    float: left;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(80,80,80,0.4);
+    -webkit-box-shadow: 0 0 10px rgba(80,80,80,0.4);
+    -o-box-shadow: 0 0 10px rgba(80,80,80,0.4);
+    -moz-box-shadow: 0 0 10px rgba(80,80,80,0.4);
+    -ms-box-shadow: 0 0 10px rgba(80,80,80,0.4);
+    /*margin: 0 20px;*/
+}
+.col1{
+    width: 300px;
+    height: 300px;
+    display: block;
+    float: left;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(80,80,80,0.4);
+    -webkit-box-shadow: 0 0 10px rgba(80,80,80,0.4);
+    -o-box-shadow: 0 0 10px rgba(80,80,80,0.4);
+    -moz-box-shadow: 0 0 10px rgba(80,80,80,0.4);
+}
+.col1:hover{
+    box-shadow: 0 0 10px rgba(80,80,80,0.8);
+    -webkit-box-shadow: 0 0 10px rgba(80,80,80,0.8);
+}
+.col:hover{
+    box-shadow: 0 0 10px rgba(80,80,80,0.8);
+    -webkit-box-shadow: 0 0 10px rgba(80,80,80,0.8);
+}
+.sana{
+    padding: 5rem 0;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    background-color: #7de29e;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.text-sana{
+    padding: 1rem 0;
+    text-align: center;
+    color: #7de29e;
+}
+
+.row .col{
+    margin-bottom: 5%;
+}
+.row .col:nth-child(2){
+   margin: 0 5%;
+}
+.row .col:first-child .sana {
+    background-color: indianred;
+}
+.wrap .row:nth-child(6) > .col:nth-child(2) .sana {
+    background-color: indianred;
+}
+.wrap .row:nth-child(2) > .col:nth-child(1):hover{
+    transform: skew(15deg);
+}
+.wrap .row:nth-child(2) > .col:nth-child(2):hover{
+    transform:skew(15deg);
+}
+.wrap .row:nth-child(2) > .col:nth-child(3):hover{
+    transform: skew(15deg) ;
+}
+.wrap .row:nth-child(3) > .col1:nth-child(1):hover{
+    transform: skew(15deg) scale(0.5);
+}
+.wrap .row:nth-child(3) > .col:nth-child(2):hover{
+    transform: skew(15deg) scale(0.5);
+}
+.wrap .row:nth-child(3) > .col:nth-child(3):hover{
+    transform: skew(15deg) scale(0.5);
+}
+.wrap .row:nth-child(4) > .col1:nth-child(1):hover{
+    transform: scale(2);
+}
+.wrap .row:nth-child(4) > .col:nth-child(2):hover{
+    transform: scale(2) ;
+}
+.wrap .row:nth-child(4) > .col:nth-child(3):hover{
+    transform: scale(2) ;
+}
+.wrap .row:nth-child(5) > .col1:nth-child(1):hover{
+    transform: skew(-15deg) ;
+}
+.wrap .row:nth-child(5) > .col:nth-child(2):hover{
+    transform: skew(-15deg);
+}
+.wrap .row:nth-child(5) > .col:nth-child(3):hover{
+    transform: skew(-15deg);
+}
+.wrap .row:nth-child(6) > .col1:nth-child(1):hover{
+    transform: translate(300px);
+}
+.wrap .row:nth-child(6) > .col:nth-child(2):hover{
+    transform: translate(300px);
+}
+.wrap .row:nth-child(6) > .col:nth-child(3):hover{
+    transform: translate(300px);
+}
+
+.wrap .row:nth-child(8) > .col1:nth-child(1):hover{
+    transform: scale(0.5) ;
+}
+.wrap .row:nth-child(8) > .col:nth-child(2):hover{
+    transform: scale(0.5) ;
+}
+.wrap .row:nth-child(8) > .col:nth-child(3):hover{
+    transform: scale(0.5);
+}
+.wrap .row:nth-child(9) > .col1:nth-child(1):hover{
+    transform: scale(0.5) translate(100px);
+}
+.wrap .row:nth-child(9) > .col:nth-child(2):hover{
+    transform: scale(0.5) translate(100px);
+}
+.wrap .row:nth-child(9) > .col:nth-child(3):hover{
+    transform: scale(0.5) translate(100px);
+}
+.wrap .row:nth-child(10) > .col1:nth-child(1):hover{
+     transform: skew(15deg) translate(-100px);
+ }
+.wrap .row:nth-child(10) > .col:nth-child(2):hover{
+    transform: skew(15deg) translate(-100px);
+}
+.wrap .row:nth-child(10) > .col:nth-child(3):hover{
+    transform: skew(15deg) translate(-100px) ;
+}
+.wrap .row:nth-child(11) > .col1:nth-child(1):hover{
+    transform: skew(-15deg) translate(100px);
+}
+.wrap .row:nth-child(11) > .col:nth-child(2):hover{
+    transform: skew(-15deg) translate(100px);
+}
+.wrap .row:nth-child(11) > .col:nth-child(3):hover{
+    transform: skew(-15deg) translate(100px) ;
+}
+.wrap .row:nth-child(11) > .col:nth-child(4):hover{
+    transform: skew(-15deg) translate(100px) ;
+}
